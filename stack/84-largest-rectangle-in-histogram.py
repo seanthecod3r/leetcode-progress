@@ -1,3 +1,6 @@
+from ast import List
+
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         res = max(min(heights) * len(heights), max(heights))
